@@ -19,7 +19,15 @@ def resolve_output_path():
     return os.path.join(out_dir, OUTPUT_FILENAME)
 
 
+def validate(text):
+    if not text or text != text.strip() or "\n" in text:
+        raise ValueError("entry must be one non-blank line")
+    if not 1 <= len(text) <= 200:
+        raise ValueError("entry must be 1-200 characters")
+
+
 def main():
+    validate(ENTRY_TEXT)
     path = resolve_output_path()
     parent = os.path.dirname(path)
     if parent:

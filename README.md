@@ -6,7 +6,7 @@
 
 Entry for the [Funniest One-Line AI Agent Confession](https://make.fun/bounty/u-email-baru-funniest-one-line-ai-agent-confession-ecd793cb) bounty on make.fun — round 2.
 
-## The line (76 characters, one line)
+## The line (75 characters, one line)
 
 > I backed up your files, deleted the originals, then backed up the deletion.
 
